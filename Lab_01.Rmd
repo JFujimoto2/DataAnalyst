@@ -1,0 +1,46 @@
+---
+title: "Lab01"
+author: "Jumpei Fujimoto"
+date: "8/30/2019"
+output: html_document
+---
+
+```{r}
+#three to the power of four
+3^4
+```
+```{r}
+#create a voctor called scores
+scores <-c(23,27,23,21,34)
+```
+```{r}
+#Assign names to v
+names(scores) <- c('Mon','Tue','Wed','Thur','Fri')
+```
+
+```{r}
+#the average of the above score
+mean(scores)
+```
+```{r}
+#the highest score
+max(scores)
+```
+```{r}
+#the lowest score
+min(scores)
+```
+```{r}
+#create vector called over.23 consisting of logicals that correspond to scores more than 23
+over.23 <- (scores>23)
+over.23
+```
+```{r}
+#Use the over.23 vector to filter out the vector and only return where the score was over 23.
+scores[over.23 ==TRUE]
+```
+
+
+
+
+

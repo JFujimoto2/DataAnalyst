@@ -1,0 +1,652 @@
+imdb_rating,imdb_num_votes,critics_score,audience_score,runtime,genre,mpaa_rating,best_pic_win
+5.5,899,45,73,80,Drama,R,no
+7.3,12285,96,81,101,Drama,PG-13,no
+7.6,22381,91,91,84,Comedy,R,no
+7.2,35096,80,76,139,Drama,PG,no
+5.1,2386,33,27,90,Horror,R,no
+7.8,333,91,86,78,Documentary,Unrated,no
+7.2,5016,57,76,142,Drama,PG-13,no
+5.5,2272,17,47,93,Drama,R,no
+7.5,880,90,89,88,Documentary,Unrated,no
+6.6,12496,83,66,119,Drama,Unrated,no
+6.8,71979,89,75,127,Action & Adventure,PG,no
+6,9669,67,46,108,Drama,PG-13,no
+7.6,201779,80,89,110,Comedy,R,no
+5.9,25808,25,53,100,Comedy,PG-13,no
+3.6,5544,15,36,111,Comedy,PG,no
+7,240033,78,64,96,Drama,R,no
+7.2,66489,54,80,140,Drama,R,no
+6.9,6336,61,92,106,Drama,R,no
+4.4,37769,19,24,91,Horror,R,no
+3.6,21268,29,19,90,Drama,PG-13,no
+7,56201,40,73,124,Drama,R,no
+7.6,3459,92,86,82,Documentary,Unrated,no
+6.2,16717,66,42,107,Drama,R,no
+6.2,9357,47,71,116,Drama,PG-13,no
+7.6,4541,79,77,87,Documentary,Unrated,no
+5.3,1816,40,41,97,Comedy,PG,no
+7.1,163490,51,81,178,Drama,PG-13,no
+5.6,19285,77,43,84,Horror,R,no
+6.4,3688,91,61,115,Art House & International,R,no
+7.9,3488,92,91,100,Musical & Performing Arts,R,no
+7.1,82851,91,71,85,Mystery & Suspense,R,no
+7,56128,68,77,87,Animation,PG,no
+7.7,33101,69,85,85,Science Fiction & Fantasy,G,no
+7.1,259822,69,70,124,Mystery & Suspense,R,no
+6.6,4908,40,57,112,Documentary,R,no
+6.5,290356,52,55,108,Action & Adventure,PG,no
+7,47297,76,70,135,Drama,R,no
+6.1,2145,13,51,115,Drama,PG,no
+8.4,466400,98,94,137,Action & Adventure,R,no
+7.4,69338,81,81,99,Drama,PG,yes
+6.6,6228,69,64,106,Drama,R,no
+7.8,75468,90,88,130,Drama,R,no
+6.5,48519,21,64,98,Drama,R,no
+5.4,13523,57,40,94,Comedy,R,no
+7.8,58668,88,94,154,Drama,PG-13,no
+6.5,9654,54,62,113,Comedy,PG-13,no
+6.7,22079,67,64,115,Drama,PG-13,no
+6.7,5258,50,49,135,Drama,PG-13,no
+2.7,761,17,17,106,Drama,PG,no
+6.2,33839,35,40,125,Drama,R,no
+7.3,183,73,88,65,Documentary,Unrated,no
+7.7,225130,27,75,123,Drama,PG-13,no
+6.5,62241,52,56,119,Mystery & Suspense,PG-13,no
+6.6,19714,34,52,120,Drama,R,no
+7.4,137126,84,83,162,Drama,R,yes
+6.8,10468,44,72,140,Drama,R,no
+6.5,37770,46,59,115,Drama,R,no
+5.5,1628,56,38,102,Drama,R,no
+5.5,5587,6,35,79,Mystery & Suspense,R,no
+6.4,6247,64,43,108,Mystery & Suspense,R,no
+6.3,8646,81,54,98,Comedy,PG-13,no
+6,8320,50,44,100,Drama,R,no
+8.5,2362,96,96,106,Documentary,Unrated,no
+7.8,1942,96,89,92,Documentary,Unrated,no
+6.6,110238,43,58,115,Mystery & Suspense,PG-13,no
+4.4,21501,12,52,87,Animation,G,no
+8.1,14359,100,90,103,Documentary,Unrated,no
+6.5,12450,75,55,127,Musical & Performing Arts,R,no
+6.4,21704,63,52,90,Drama,R,no
+7.2,4375,40,85,119,Drama,PG,no
+6.2,48324,40,43,135,Drama,R,no
+5.5,4768,13,30,91,Comedy,R,no
+5.9,2944,24,38,101,Mystery & Suspense,R,no
+6.8,6788,79,75,93,Comedy,PG,no
+6.5,24783,65,55,101,Horror,PG,no
+6,3745,54,39,130,Drama,R,no
+6.4,54726,48,59,101,Animation,G,no
+5.9,1493,59,47,99,Drama,R,no
+4.4,5616,21,24,100,Comedy,PG-13,no
+7.6,10492,96,87,106,Drama,R,no
+7.3,4451,60,83,116,Drama,R,no
+6.8,12269,71,81,90,Comedy,R,no
+5.7,60335,32,35,117,Action & Adventure,R,no
+5.5,5035,29,34,83,Action & Adventure,R,no
+8.2,315051,82,92,140,Drama,PG-13,no
+5.9,82737,42,55,106,Drama,PG,no
+6.1,4944,70,54,94,Drama,R,no
+3.6,8229,17,14,91,Drama,R,no
+6.8,4516,92,76,108,Drama,R,no
+5.7,7858,9,40,100,Comedy,R,no
+7.4,10938,84,82,126,Drama,Unrated,no
+7.8,279704,78,87,107,Action & Adventure,R,no
+5.8,11192,78,41,94,Mystery & Suspense,R,no
+6.2,3851,40,75,94,Comedy,R,no
+5.8,1838,71,43,97,Drama,R,no
+6.2,6552,50,52,109,Drama,R,no
+5.7,390,29,25,104,Drama,PG-13,no
+7.2,68429,62,74,117,Mystery & Suspense,R,no
+8.1,182983,98,93,93,Comedy,PG,yes
+8,1147,95,90,132,Documentary,Unrated,no
+7.2,35635,93,80,95,Drama,R,no
+5.9,2569,40,34,102,Drama,R,no
+5.9,13980,68,37,101,Drama,R,no
+7.7,11477,86,86,105,Drama,R,no
+4.1,9853,9,33,84,Comedy,PG-13,no
+6.4,14970,39,45,102,Drama,R,no
+7.3,9001,92,81,90,Drama,R,no
+6.2,35868,22,48,122,Drama,R,no
+5.4,41767,21,24,107,Action & Adventure,PG,no
+3.8,6954,17,35,97,Comedy,PG,no
+8.5,893008,88,91,165,Other,R,no
+6.2,3467,50,69,109,Drama,PG-13,no
+7,117688,66,75,126,Drama,R,no
+5.1,2817,17,43,89,Comedy,PG-13,no
+5.8,32751,14,35,102,Mystery & Suspense,R,no
+6.3,5704,19,78,123,Drama,PG,no
+7.6,318,97,78,96,Musical & Performing Arts,Unrated,no
+6.6,123989,52,64,127,Action & Adventure,R,no
+5.6,70209,38,40,103,Action & Adventure,G,no
+7.8,541,86,88,111,Documentary,Unrated,no
+6.1,132215,48,43,120,Drama,PG-13,no
+6.7,127458,67,65,86,Drama,R,no
+3.5,27769,35,46,99,Drama,R,no
+5.8,52635,14,55,101,Comedy,PG-13,no
+7.1,12819,81,75,121,Drama,R,no
+3.5,6054,4,67,91,Comedy,R,no
+6.2,9367,84,54,92,Horror,Unrated,no
+6.2,17798,32,41,95,Comedy,R,no
+6.7,26010,69,75,93,Drama,R,no
+7.5,4515,79,76,98,Drama,R,no
+7.3,535,100,74,39,Documentary,Unrated,no
+7.4,71572,79,87,107,Drama,R,no
+3.4,57933,3,37,91,Comedy,PG,no
+7.5,1784,100,86,157,Documentary,Unrated,no
+7.2,3883,70,79,118,Drama,R,no
+6.7,2282,80,42,126,Drama,PG-13,no
+6.3,105745,36,63,88,Comedy,PG,no
+5.3,104457,66,38,94,Drama,R,no
+5.6,205065,37,51,92,Action & Adventure,PG,no
+7.8,562136,79,84,100,Comedy,R,no
+5.7,1778,50,44,91,Comedy,G,no
+5.6,7628,15,33,92,Drama,PG,no
+7.1,17934,60,74,100,Drama,R,no
+7.3,2502,80,78,96,Drama,Unrated,no
+6.7,13092,67,59,155,Drama,PG,no
+6.6,1010,100,74,90,Other,PG,no
+6.3,4687,63,55,113,Action & Adventure,G,no
+6.6,48137,60,52,138,Drama,PG-13,no
+7.8,164112,89,89,118,Drama,PG-13,no
+7.5,30921,96,82,115,Drama,PG-13,no
+3.8,37640,4,22,127,Action & Adventure,PG-13,no
+6.8,95327,91,85,117,Musical & Performing Arts,PG,no
+6.5,289825,74,66,123,Mystery & Suspense,PG-13,no
+6.5,15525,93,61,102,Drama,PG,no
+4.2,43268,3,33,99,Action & Adventure,PG-13,no
+6.3,3153,33,43,100,Action & Adventure,PG,no
+6,1887,55,50,123,Drama,R,no
+4.5,3096,4,49,86,Comedy,PG-13,no
+7.4,112216,63,84,97,Drama,R,no
+6.4,154674,51,62,131,Drama,PG-13,no
+6.7,12535,79,63,126,Drama,R,no
+7.4,3363,100,83,97,Drama,R,no
+6.3,40659,53,65,114,Action & Adventure,PG-13,no
+7.4,82378,91,74,120,Drama,PG-13,no
+5.1,3135,41,61,94,Drama,PG,no
+7.3,1489,85,70,90,Documentary,PG,no
+6.8,41385,59,62,125,Drama,R,no
+6.7,88523,71,69,128,Comedy,PG-13,no
+6.6,12221,75,63,91,Drama,R,no
+5.9,6304,36,39,97,Horror,R,no
+5.1,9565,19,32,85,Horror,R,no
+7.2,15913,94,79,129,Drama,PG-13,no
+8.1,414687,96,87,101,Other,PG,no
+7.2,33720,67,70,107,Drama,R,no
+7.4,325,53,71,98,Documentary,Unrated,no
+7.8,22245,72,86,103,Action & Adventure,R,no
+5.7,17133,52,33,106,Drama,PG-13,no
+6.7,23821,79,70,108,Drama,R,no
+7.7,13285,85,87,123,Drama,R,no
+6.7,192052,33,68,100,Action & Adventure,R,no
+6.9,211129,54,83,110,Drama,PG,no
+7.7,146518,78,85,135,Drama,R,no
+5.4,2239,50,39,100,Comedy,PG,no
+6,486,31,44,95,Drama,R,no
+4.1,7658,4,17,92,Drama,R,no
+6.1,1268,11,58,107,Drama,R,no
+2.4,64119,3,11,118,Action & Adventure,PG-13,no
+6.2,24678,55,41,95,Comedy,PG,no
+7.6,6114,100,85,105,Drama,PG,no
+6.5,9399,37,49,93,Drama,PG,no
+7.8,414650,92,79,100,Drama,R,no
+6.5,15291,60,54,104,Drama,R,no
+5.9,725,33,41,112,Drama,R,no
+7.1,93331,40,77,123,Drama,PG-13,no
+7.4,9876,89,79,154,Drama,R,no
+7.7,9525,84,85,115,Drama,R,no
+7.2,44741,76,80,90,Comedy,PG,no
+7.3,285,78,89,74,Documentary,Unrated,no
+5.8,3673,67,31,105,Drama,R,no
+6.1,79970,38,46,95,Action & Adventure,PG-13,no
+8.1,1058,79,92,84,Documentary,Unrated,no
+6.9,60220,72,62,91,Comedy,R,no
+4.1,5591,21,36,94,Comedy,PG,no
+7.3,340,100,80,82,Documentary,Unrated,no
+6.3,50340,60,57,98,Drama,PG-13,no
+6,2934,61,55,92,Drama,R,no
+5.7,5564,24,55,91,Action & Adventure,PG,no
+8.2,753592,73,90,132,Drama,R,no
+6.4,1141,83,75,98,Drama,PG,no
+6.2,3967,67,40,126,Drama,R,no
+7.1,287476,63,71,110,Mystery & Suspense,PG-13,no
+7.4,94983,67,86,149,Mystery & Suspense,R,no
+7,56185,90,73,119,Other,R,no
+6.4,3138,82,61,146,Drama,R,no
+6.4,25264,55,45,125,Mystery & Suspense,R,no
+4.1,9424,29,70,103,Drama,PG-13,no
+6.2,16681,31,56,114,Action & Adventure,PG,no
+5.3,1308,10,56,83,Drama,PG-13,no
+7.9,87215,97,91,85,Musical & Performing Arts,R,no
+7.3,121245,83,81,105,Action & Adventure,R,no
+6.4,71112,22,46,110,Mystery & Suspense,R,no
+6.7,72295,74,65,90,Comedy,PG-13,no
+3.8,2289,22,21,90,Other,R,no
+6.4,84191,59,49,124,Drama,PG-13,no
+6.6,235529,51,48,112,Comedy,R,no
+8,168032,98,90,115,Drama,R,no
+5.4,56329,44,31,104,Drama,PG-13,no
+7.6,2849,100,84,90,Documentary,Unrated,no
+6.8,26360,35,77,120,Drama,PG-13,no
+6.5,5762,64,48,86,Art House & International,R,no
+5.9,8521,25,45,94,Drama,R,no
+6.6,191935,30,58,103,Action & Adventure,R,no
+7.8,872,100,73,267,Documentary,Unrated,no
+5.1,8999,14,27,95,Drama,R,no
+7.6,184656,84,85,110,Drama,R,no
+7.2,2098,44,86,89,Mystery & Suspense,R,no
+7.7,375820,90,83,143,Drama,PG-13,no
+4.8,19187,11,25,92,Action & Adventure,PG,no
+6.4,1406,60,61,90,Drama,R,no
+7,16755,51,78,103,Drama,R,no
+5.6,9003,64,40,108,Drama,Unrated,no
+6.3,5014,75,51,110,Mystery & Suspense,R,no
+6.1,2818,56,40,97,Horror,R,no
+7.9,38076,100,87,94,Documentary,PG-13,no
+6.7,137405,64,66,89,Action & Adventure,PG,no
+5.6,56361,24,52,97,Drama,PG-13,no
+7,7244,67,75,85,Mystery & Suspense,R,no
+5.7,2701,23,40,110,Drama,PG-13,no
+4.8,18712,7,38,97,Comedy,R,no
+6.3,25054,43,49,106,Mystery & Suspense,R,no
+3.8,1510,10,63,84,Comedy,R,no
+7.4,8544,88,83,118,Action & Adventure,G,no
+7.3,8561,56,81,103,Drama,R,no
+6.7,151934,28,61,88,Drama,R,no
+7.1,52449,85,80,91,Drama,R,no
+5.9,11001,32,46,128,Drama,PG-13,no
+6.5,42613,63,64,100,Drama,R,no
+4.1,3505,33,19,88,Drama,Unrated,no
+6.9,74294,53,78,107,Horror,R,no
+7.5,1480,75,80,86,Documentary,G,no
+4.5,703,17,33,101,Action & Adventure,PG-13,no
+6,103789,51,51,111,Action & Adventure,PG-13,no
+7.5,42842,94,81,106,Art House & International,Unrated,no
+6.8,26731,58,65,95,Action & Adventure,R,no
+7.8,26628,100,90,85,Drama,PG,no
+7,149437,60,85,92,Comedy,PG-13,no
+6.7,9291,76,71,101,Drama,PG-13,no
+7.8,157701,93,90,81,Drama,R,no
+6.1,14901,67,50,101,Comedy,PG,no
+6.4,1361,86,51,97,Mystery & Suspense,R,no
+7.8,47065,80,87,99,Drama,R,no
+6.9,12606,85,69,97,Comedy,PG-13,no
+7.8,246587,93,87,112,Drama,R,no
+7.6,42208,59,84,111,Drama,PG,no
+7.6,9216,31,86,108,Drama,Unrated,no
+7,201787,85,71,120,Action & Adventure,PG-13,no
+7.1,19000,89,82,113,Mystery & Suspense,G,no
+7.5,1799,61,72,92,Documentary,R,no
+5.9,12877,28,59,101,Drama,R,no
+6.8,9025,60,76,134,Drama,R,no
+5.7,5985,36,45,77,Horror,R,no
+6.7,30886,43,63,74,Animation,G,no
+5.6,4970,21,29,106,Drama,R,no
+6.3,2732,33,72,107,Art House & International,R,no
+5.1,3336,44,40,87,Comedy,PG,no
+7.2,252661,93,76,116,Mystery & Suspense,R,no
+7.4,30641,81,84,91,Drama,R,no
+7,22601,86,71,83,Drama,NC-17,no
+6.1,7076,76,42,106,Drama,R,no
+7.2,161601,78,88,110,Other,PG,no
+7.6,285328,87,85,113,Science Fiction & Fantasy,R,no
+7.3,2598,100,75,110,Drama,Unrated,no
+7.2,108598,94,76,100,Drama,R,no
+6.7,20655,83,66,90,Drama,R,no
+5.3,12322,15,55,89,Comedy,PG,no
+7.1,99192,51,76,110,Drama,R,no
+5.6,44257,28,42,93,Mystery & Suspense,R,no
+6.7,77762,22,74,115,Drama,PG-13,no
+7.4,368799,82,79,161,Science Fiction & Fantasy,PG,no
+6.2,2830,25,64,90,Drama,PG-13,no
+6,2960,21,48,104,Art House & International,PG-13,no
+5.2,46233,24,23,86,Science Fiction & Fantasy,PG-13,no
+6.5,9980,25,61,111,Art House & International,R,no
+6.2,8016,45,66,130,Drama,R,no
+5.6,37938,11,45,88,Drama,PG-13,no
+6.5,16480,52,54,108,Other,R,no
+6.3,63219,80,49,94,Drama,R,no
+6.5,4251,71,59,97,Drama,R,no
+6.4,23697,89,60,90,Drama,R,no
+6.3,53675,34,48,108,Horror,R,no
+6.5,9787,43,58,87,Drama,R,no
+5.1,1978,36,28,91,Comedy,R,no
+5.3,9370,15,31,93,Comedy,R,no
+7.8,10380,91,87,140,Drama,R,no
+6.9,73280,42,68,105,Drama,R,no
+5.9,7656,67,47,91,Science Fiction & Fantasy,R,no
+6.2,11855,39,37,124,Mystery & Suspense,R,no
+7.5,172765,88,83,102,Drama,R,no
+6.9,23201,20,84,91,Documentary,R,no
+6.4,8604,48,74,135,Drama,R,no
+7,14949,87,79,100,Comedy,PG-13,no
+6.1,1995,73,44,112,Drama,R,no
+6.9,15806,14,84,119,Action & Adventure,R,no
+5.3,30694,30,27,116,Action & Adventure,PG-13,no
+6.5,56888,56,51,107,Comedy,PG-13,no
+7,4821,78,64,134,Drama,Unrated,no
+5.8,3145,40,41,81,Horror,R,no
+5.8,19115,74,35,108,Drama,R,no
+7.2,70994,46,78,102,Drama,R,no
+7,66233,92,72,120,Drama,R,no
+5.8,2295,22,66,113,Drama,PG-13,no
+5.5,2698,13,37,91,Drama,R,no
+7.4,34652,71,82,96,Comedy,R,no
+7.5,739,80,72,73,Documentary,Unrated,no
+6.6,64489,59,63,86,Action & Adventure,PG-13,no
+7.8,49985,87,89,122,Musical & Performing Arts,R,no
+5.8,3649,87,56,94,Action & Adventure,PG,no
+6.3,3359,93,62,88,Drama,Unrated,no
+6.5,10020,31,46,105,Mystery & Suspense,PG-13,no
+6.5,78726,46,38,129,Mystery & Suspense,PG-13,no
+8,246907,94,92,90,Action & Adventure,G,no
+7.8,49374,89,89,109,Drama,PG,no
+7.4,40001,92,82,108,Mystery & Suspense,R,no
+5.8,18670,65,41,89,Horror,R,no
+6.5,5149,47,72,95,Drama,PG,no
+7.1,35577,97,83,108,Drama,R,no
+7.9,38076,100,87,94,Documentary,PG-13,no
+2.3,87652,2,29,86,Action & Adventure,R,no
+6.2,17329,63,45,105,Mystery & Suspense,R,no
+5.9,16511,31,34,112,Mystery & Suspense,R,no
+7.2,5002,78,79,100,Drama,R,no
+9,749783,97,97,202,Mystery & Suspense,R,yes
+7.4,10599,95,84,92,Horror,PG,no
+6.4,3101,75,63,91,Drama,R,no
+5.7,4180,18,44,109,Action & Adventure,PG,no
+7.7,9904,85,68,116,Musical & Performing Arts,PG-13,no
+6.3,3428,67,61,84,Art House & International,PG,no
+8.2,2056,95,86,180,Documentary,Unrated,no
+6.2,100447,51,50,134,Comedy,R,no
+6.8,37506,79,65,108,Drama,PG-13,no
+6,109633,60,49,98,Action & Adventure,PG-13,no
+7.3,21443,80,83,118,Drama,Unrated,no
+5.9,4031,17,57,88,Drama,R,no
+5.5,47692,27,40,110,Mystery & Suspense,R,no
+6.2,47343,11,69,82,Comedy,PG-13,no
+5.2,24084,38,63,104,Action & Adventure,R,no
+7.8,13215,96,85,122,Mystery & Suspense,PG,no
+7.2,105982,68,79,122,Mystery & Suspense,R,no
+6.1,34461,46,57,106,Drama,PG-13,no
+5.1,15714,31,53,86,Comedy,PG-13,no
+5.8,3358,23,65,129,Drama,PG-13,no
+7.5,275125,66,66,172,Drama,R,no
+4.9,13280,11,35,105,Action & Adventure,R,no
+7.5,2551,38,95,121,Musical & Performing Arts,R,no
+4.6,5863,27,33,92,Art House & International,R,no
+1.9,73219,1,19,87,Comedy,PG-13,no
+3.1,8319,7,17,95,Science Fiction & Fantasy,PG,no
+7.9,265725,90,89,116,Other,R,no
+7.5,3859,72,86,110,Drama,PG,no
+5.9,53535,47,55,134,Drama,PG-13,no
+7.1,4907,91,72,87,Documentary,R,no
+7.6,318019,98,84,131,Drama,R,yes
+7.5,679,93,82,85,Documentary,PG-13,no
+8.5,806911,92,94,113,Mystery & Suspense,R,no
+6.4,3342,63,55,107,Drama,R,no
+7.9,3649,94,88,86,Documentary,Unrated,no
+6.4,27417,55,68,93,Comedy,PG-13,no
+7.5,1815,71,89,90,Documentary,PG,no
+7.1,9939,74,76,84,Drama,R,no
+6.2,4857,17,43,101,Drama,R,no
+6.9,1428,73,62,111,Drama,R,no
+5.9,44248,6,36,92,Mystery & Suspense,PG-13,no
+6.8,18141,60,60,112,Drama,PG-13,no
+8.1,303529,76,89,146,Drama,PG-13,no
+7.1,86953,69,74,100,Drama,R,no
+7.1,128361,68,78,104,Drama,R,no
+6.7,297034,83,71,107,Drama,R,no
+7.6,4143,100,82,96,Drama,R,no
+8.4,3128,87,89,88,Documentary,PG,no
+8,36909,98,91,93,Drama,R,no
+5.8,1816,38,44,112,Other,PG,no
+6.4,1043,80,56,117,Drama,NC-17,no
+6.4,54829,55,45,103,Action & Adventure,PG,no
+7,9725,54,70,137,Drama,R,no
+8,490295,84,89,137,Drama,R,no
+5.2,7881,11,35,95,Comedy,R,no
+4.9,5136,5,13,108,Drama,PG,no
+3.5,10055,18,30,83,Action & Adventure,PG-13,no
+6.5,2408,36,68,91,Drama,PG,no
+5.9,24472,32,49,118,Action & Adventure,PG,no
+6.6,115026,29,63,92,Action & Adventure,R,no
+7.8,651,91,81,95,Documentary,Unrated,no
+5.3,7710,38,47,93,Comedy,R,no
+5.7,5425,46,51,114,Drama,R,no
+6.3,4550,71,50,105,Other,PG,no
+7,16262,72,78,125,Other,Unrated,no
+8.4,1571,90,93,83,Documentary,Unrated,no
+4.9,10271,8,35,88,Comedy,PG-13,no
+5.7,204042,61,29,138,Action & Adventure,PG-13,no
+4.5,16824,10,31,100,Horror,R,no
+7.5,6061,84,85,89,Art House & International,Unrated,no
+4.5,10651,13,31,100,Action & Adventure,PG,no
+7.9,1346,94,85,122,Documentary,PG,no
+5.8,1886,85,49,96,Drama,R,no
+6.5,4874,31,69,139,Drama,R,no
+7,4121,91,80,119,Drama,R,no
+6.8,40133,78,79,107,Drama,PG-13,no
+6.2,3416,7,43,85,Action & Adventure,PG-13,no
+5.5,73617,14,37,91,Horror,R,no
+7.7,183747,80,86,124,Drama,R,no
+6.3,123588,67,55,88,Comedy,PG-13,no
+6.3,124250,75,52,119,Comedy,PG-13,no
+6.8,11103,87,75,119,Drama,R,no
+5.9,33040,43,49,105,Comedy,PG-13,no
+7.1,11236,75,74,131,Drama,R,no
+6.4,9946,82,58,108,Mystery & Suspense,R,no
+6,1680,33,65,85,Action & Adventure,PG,no
+7.1,122980,79,67,130,Drama,R,no
+5.4,19603,40,60,117,Comedy,R,no
+7.8,1663,40,83,91,Art House & International,R,no
+6.8,71141,45,57,125,Drama,PG,no
+5,13790,25,37,85,Science Fiction & Fantasy,R,no
+5.3,5374,21,29,107,Other,PG-13,no
+7.2,14589,91,78,110,Drama,R,no
+6.2,11259,53,67,87,Comedy,R,no
+7.3,6472,90,76,155,Drama,PG,no
+7,100416,36,49,107,Drama,PG-13,no
+6.7,3866,100,51,112,Drama,R,no
+7.8,872,96,92,86,Documentary,Unrated,no
+7.5,2928,67,78,94,Documentary,Unrated,no
+7.9,3887,82,87,81,Documentary,G,no
+5.9,1607,13,60,75,Other,R,no
+5.8,4904,51,32,111,Mystery & Suspense,R,no
+6.8,19937,82,67,96,Mystery & Suspense,R,no
+5.7,17384,32,47,93,Comedy,PG,no
+6.1,25683,33,39,93,Comedy,R,no
+4.8,3883,17,24,89,Drama,R,no
+7.9,99582,93,93,122,Drama,R,no
+3.4,2959,11,24,83,Horror,R,no
+6.7,134031,41,57,133,Mystery & Suspense,R,no
+4.8,17190,11,47,91,Action & Adventure,PG,no
+7.4,135840,88,77,112,Drama,R,no
+5.7,2897,15,72,115,Musical & Performing Arts,PG,no
+6.4,10126,29,72,129,Drama,PG-13,no
+6.3,19383,57,49,104,Drama,PG,no
+7.4,8030,4,78,128,Art House & International,R,no
+5.3,3461,13,29,90,Art House & International,R,no
+6.4,3970,79,70,68,Animation,G,no
+8.3,572236,97,94,126,Drama,R,no
+4.3,4072,13,14,104,Drama,R,no
+6.5,126257,75,70,108,Animation,PG,no
+4.9,15491,6,30,93,Comedy,PG,no
+6.1,51070,51,35,117,Drama,PG-13,no
+6.8,2530,73,73,102,Drama,R,no
+5.3,30495,16,28,93,Drama,R,no
+5.6,16955,29,37,97,Comedy,PG,no
+8.5,797101,76,92,130,Drama,PG-13,no
+5.9,8059,27,76,97,Drama,R,no
+7.3,60483,71,81,105,Drama,R,no
+6.2,3602,60,58,95,Drama,PG-13,no
+6.8,34802,18,72,103,Action & Adventure,R,no
+6.6,3730,49,66,121,Mystery & Suspense,R,no
+3.4,30085,10,23,85,Comedy,PG-13,no
+6.3,32737,25,70,82,Comedy,PG,no
+7.1,34307,92,81,102,Drama,PG,no
+6,66171,68,60,129,Drama,PG-13,no
+6.3,8685,43,52,144,Drama,PG-13,no
+5.9,54597,9,49,177,Action & Adventure,R,no
+5.3,7862,7,46,97,Comedy,PG-13,no
+6.6,68871,80,79,103,Drama,PG,no
+8.1,582091,93,86,122,Drama,R,yes
+5.1,11156,29,63,81,Comedy,PG-13,no
+8.2,6345,92,88,100,Documentary,R,no
+7.5,9990,71,86,115,Art House & International,Unrated,no
+5.9,3473,60,34,92,Drama,R,no
+6.3,42295,25,59,93,Action & Adventure,R,no
+7.6,329613,71,87,126,Drama,PG-13,no
+6.4,42408,60,50,105,Mystery & Suspense,R,no
+6.7,137222,37,62,88,Action & Adventure,PG,no
+5.5,51366,25,25,95,Comedy,PG-13,no
+7.5,21623,63,82,120,Drama,PG,no
+7.8,39320,93,85,103,Documentary,R,no
+3.4,1915,17,26,95,Science Fiction & Fantasy,R,no
+5.1,1674,50,38,94,Comedy,PG,no
+5.9,2096,67,45,118,Comedy,PG-13,no
+6.2,1935,35,70,95,Drama,R,no
+7.8,10522,91,86,110,Drama,PG,no
+5.4,2380,43,28,96,Mystery & Suspense,R,no
+7.6,78862,50,81,83,Action & Adventure,G,no
+4.3,83724,17,32,96,Action & Adventure,PG-13,no
+7.1,34298,71,77,115,Drama,R,no
+7.4,830,100,72,83,Documentary,PG,no
+7.3,2869,81,72,111,Drama,PG,no
+5.9,134510,61,53,94,Horror,R,no
+6.5,152216,26,60,99,Drama,R,no
+6.3,54771,40,49,97,Mystery & Suspense,PG-13,no
+5.8,11838,13,36,112,Comedy,R,no
+7.1,110540,38,59,107,Drama,PG-13,no
+5.7,6343,67,49,100,Drama,R,no
+7.7,309494,63,73,135,Comedy,R,no
+6.5,6909,72,59,98,Science Fiction & Fantasy,PG,no
+6,1890,67,49,88,Drama,R,no
+6.8,72176,66,65,121,Mystery & Suspense,PG,no
+7.1,2271,52,64,109,Drama,PG-13,no
+6.6,6804,79,68,99,Drama,R,no
+6.8,161101,53,64,115,Mystery & Suspense,R,no
+5.2,10535,13,19,110,Comedy,PG-13,no
+8.2,448434,89,93,94,Drama,R,no
+6.9,2931,83,76,104,Drama,PG,no
+7,21009,63,77,97,Other,PG,no
+5.4,6811,35,31,87,Comedy,R,no
+6.9,1943,81,72,89,Documentary,PG,no
+7.5,32338,95,78,99,Documentary,R,no
+5.7,19161,17,44,93,Drama,PG-13,no
+6.5,54871,61,52,98,Mystery & Suspense,R,no
+6,2433,86,44,87,Horror,R,no
+6.8,21924,33,73,115,Drama,R,no
+7.6,128298,98,85,95,Action & Adventure,R,no
+5.1,14559,27,46,99,Drama,PG,no
+7.3,34926,49,77,116,Drama,R,no
+7.3,27097,85,80,101,Drama,G,no
+6.8,4021,88,71,120,Drama,R,no
+8,764,100,91,78,Documentary,Unrated,no
+5.8,6418,50,42,128,Drama,R,no
+5.9,70737,27,61,108,Drama,R,no
+4.5,9656,4,37,84,Action & Adventure,PG-13,no
+6.6,193702,28,67,107,Mystery & Suspense,PG-13,no
+6,59076,19,65,89,Horror,R,no
+6.4,154148,54,54,127,Comedy,PG-13,no
+7.1,11377,87,76,99,Drama,R,no
+4.2,3302,17,15,90,Mystery & Suspense,R,no
+7.8,180,84,79,90,Documentary,Unrated,no
+6.4,34253,68,49,102,Drama,R,no
+7.6,17960,77,86,84,Drama,PG,no
+7.5,281,92,77,139,Musical & Performing Arts,Unrated,no
+6.7,12498,75,67,126,Drama,PG,no
+7.6,86831,94,87,93,Comedy,R,no
+6.2,83424,14,44,110,Mystery & Suspense,R,no
+6.3,1803,67,65,114,Drama,R,no
+7.7,56919,55,78,90,Drama,PG,no
+7.5,10250,97,87,106,Drama,R,no
+4.9,18005,12,22,118,Mystery & Suspense,R,no
+5.9,62773,40,35,98,Drama,R,no
+7.2,15444,98,80,94,Mystery & Suspense,R,no
+7,48756,83,79,99,Drama,PG,no
+5.6,14986,19,32,89,Comedy,PG-13,no
+4.7,13525,8,44,86,Comedy,R,no
+7.1,246343,60,73,127,Drama,PG-13,no
+6.7,290958,72,69,110,Action & Adventure,R,no
+7.1,3146,89,71,123,Drama,R,no
+5.5,10886,25,39,100,Mystery & Suspense,R,no
+7.2,96471,55,82,94,Comedy,R,no
+5.9,17101,20,46,106,Drama,PG-13,no
+7,723,100,68,40,Documentary,G,no
+7.7,106171,81,87,152,Drama,PG-13,no
+7.2,88777,65,85,136,Drama,PG-13,no
+7.7,294683,72,89,122,Drama,R,no
+6.8,51534,88,71,118,Drama,R,no
+6.9,3487,77,62,112,Drama,R,no
+7.1,5115,88,68,128,Mystery & Suspense,R,no
+6.9,15449,97,80,92,Drama,PG,no
+5.7,2181,75,34,106,Comedy,PG,no
+6.2,9832,77,81,132,Other,PG,no
+7.2,247105,48,80,124,Drama,R,no
+8,13614,95,89,119,Comedy,R,no
+6.2,78297,42,72,96,Drama,PG-13,no
+7.6,4369,89,86,95,Drama,PG,no
+4.9,6765,31,29,107,Comedy,PG,no
+6.6,16137,83,59,122,Mystery & Suspense,PG,no
+7.3,101850,82,81,109,Drama,R,no
+7.1,504,86,71,107,Documentary,Unrated,no
+7.4,1935,100,94,94,Documentary,Unrated,no
+6.4,15116,82,54,109,Mystery & Suspense,R,no
+7.3,183717,85,79,139,Drama,R,no
+7.5,64873,59,82,104,Drama,R,no
+7.7,20738,92,87,109,Drama,PG,no
+7.6,123769,72,87,81,Action & Adventure,R,no
+7,79866,67,71,127,Other,PG-13,no
+7.6,160237,92,88,83,Animation,G,no
+6.3,24595,49,50,94,Action & Adventure,PG,no
+7,16883,89,70,112,Art House & International,Unrated,no
+8.4,390,95,92,93,Documentary,PG,no
+6.9,19539,42,70,91,Horror,R,no
+5.7,48718,53,38,116,Action & Adventure,PG,no
+6.1,26301,49,44,89,Horror,Unrated,no
+7,26943,56,80,124,Musical & Performing Arts,R,no
+6.7,4077,40,66,94,Drama,PG-13,no
+6.2,63511,22,55,103,Drama,R,no
+7.5,27601,90,79,80,Drama,PG,no
+7.7,756602,88,69,194,Drama,PG-13,yes
+7.8,3998,93,91,94,Documentary,R,no
+6,19898,46,38,112,Drama,R,no
+6.9,10786,68,67,107,Drama,R,no
+6.9,2857,71,58,97,Drama,PG-13,no
+7.8,9675,88,89,89,Documentary,Unrated,no
+7.6,7545,87,88,91,Drama,R,no
+4.5,2113,9,52,82,Comedy,R,no
+7.5,3448,100,89,90,Drama,R,no
+6,2441,46,55,100,Drama,R,no
+6.2,12402,63,53,108,Drama,PG-13,no
+5.7,3373,25,65,90,Action & Adventure,PG,no
+4.9,6322,14,33,96,Comedy,PG,no
+7.3,9906,63,74,91,Documentary,Unrated,no
+7.2,15025,91,78,113,Drama,PG,no
+7.1,30826,77,73,95,Comedy,R,no
+7.9,309896,93,89,134,Drama,PG-13,no
+5.4,7284,7,35,104,Horror,R,no
+6.7,58907,67,70,121,Mystery & Suspense,R,no
+5.6,57251,11,48,112,Action & Adventure,PG-13,no
+2.8,3790,8,18,85,Animation,G,no
+5.7,8818,26,41,119,Drama,R,no
+4.3,11125,6,22,99,Mystery & Suspense,R,no
+7.3,675907,84,81,142,Drama,PG-13,no
+4.9,2120,40,35,95,Drama,R,no
+6.8,111132,35,73,99,Drama,PG,no
+8.1,103378,94,95,133,Drama,R,no
+6.1,13682,17,37,100,Drama,R,no
+5.9,63672,19,40,99,Mystery & Suspense,PG-13,no
+7.1,6946,85,72,112,Drama,R,no
+6.4,3584,38,55,136,Drama,PG,no
+5.3,54363,27,65,92,Animation,PG,no
+7.7,11197,95,81,103,Musical & Performing Arts,PG,no
+7.4,96787,90,81,114,Drama,R,no
+6.8,16366,77,73,88,Mystery & Suspense,PG,no
+7.2,134270,88,74,88,Drama,G,no
+5.2,11657,36,35,116,Drama,PG,no
+5.9,8345,44,26,97,Drama,PG,no
+6.7,46794,29,81,82,Comedy,R,no
+5.9,10087,80,52,87,Action & Adventure,R,no
+5.8,66054,31,34,120,Action & Adventure,PG,no
+4.2,43574,17,51,97,Comedy,PG-13,no

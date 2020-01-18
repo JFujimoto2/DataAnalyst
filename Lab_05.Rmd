@@ -1,0 +1,113 @@
+---
+title: "Lab5"
+author: "Jumpei Fujimoto"
+date: "10/18/2019"
+output: html_document
+---
+
+```{r}
+titan <- read_csv("titanic.csv")
+```
+```{r}
+library(tidyverse)
+```
+```{r}
+# Check what the data is
+head(titan)
+```
+```{r}
+# get the big picture of data
+summary(titan)
+```
+```{r}
+# check the data type and variable
+str(titan)
+```
+
+```{r}
+fe_total <- count(titan, Sex == "female")
+# female is 314
+fe_surv <- count(titan, Survived == 1 & Sex == "female")
+# 233 survived in female
+fe_surv_rate <- fe_surv/fe_total *100
+fe_surv_rate
+# fe_surv_rate is 74.2%
+```
+```{r}
+ma_total <- count(titan, Sex == "male")
+ma_total
+# male is 577
+ma_surv <- count(titan, Survived == 1 & Sex == "male")
+ma_surv
+# 109 survived in male
+ma_surv_rate <- ma_surv / ma_total *100
+ma_surv_rate
+# ma_surv_rate is 18.9%
+```
+```{r}
+# There is a huge diff between female surv rate and male surv rate
+# Female survived 74.2% for all female and male survived 18.9% of all male
+```
+
+
+```{r}
+# compare survived and sex
+ggplot(titan, aes(x = Sex)) +geom_bar()
+```
+```{r}
+ggplot(titan, aes(x = Sex, y = ..prop.., group=Survived, fill = Survived)) +geom_bar(position = "dodge")
+#female has more possibility to survive than male
+```
+```{r}
+#Pclass 1 and Pclass 2 has higher possibility to live than die
+#Pclass 3 has higher possibility to die than survive
+ggplot(titan, aes(x = Pclass, y = ..prop.., group=Survived, fill = Survived)) +geom_bar(position = "dodge")
+
+```
+```{r}
+?subset
+df_surv <- subset(titan, Survived == 1)
+df_die <- subset(titan, Survived == 0)
+df_surv
+df_die
+```
+```{r}
+
+```
+
+
+```{r}
+# Look at the age and Survived relationship
+?geom_point()
+ggplot(titan, aes(x= Age, y= Survived == 1)) + geom_point()
+```
+```{r}
+# Look at the age less than 5 years old
+titan %>% 
+  filter(Age<5) %>% 
+  arrange(Age)
+# All of age 0<1 are survived
+```
+```{r}
+# Look at the age more than 65 years old
+titan %>% 
+  filter(Age>65) %>% 
+  arrange(Age)
+#Only one person survived out of eight peoples
+```
+```{r}
+a <-titan %>% 
+  group_by(Survived)
+a
+```
+
+
+
+##Summary
+1. All of age below than 1 years old are survived
+2. Pclass 1 and Pclass 2 has higher possibility to live than die.
+3. Pclass 3 has higher possibility to die than survive
+4. female survive rate is very high, 74.2%, compared with male survive rate, 18.9%.
+5. Most of age more than 65 years old are not survived.
+
+

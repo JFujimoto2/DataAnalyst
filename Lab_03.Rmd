@@ -1,0 +1,45 @@
+---
+title: "Lab03"
+author: "Jumpei Fujmoto"
+date: "Sep 20, 2019"
+output: html_notebook
+---
+
+```{r}
+#get to top few rows
+head(iris)
+```
+```{r}
+#make a scatterplot of sepal.length vs sepal.length
+ggplot(iris, aes(Sepal.Length, Sepal.Width)) + geom_point()
+```
+```{r}
+# add a smooth line
+ggplot(iris, aes(Sepal.Length, Sepal.Width)) + geom_point()+ geom_smooth()
+```
+```{r}
+#remove the standard deviation from the smooth curve
+ggplot(iris, aes(Sepal.Length, Sepal.Width)) + geom_point()+ geom_smooth(se=0)
+```
+```{r}
+#change the color of smooth curve into a purple
+ggplot(iris, aes(Sepal.Length, Sepal.Width))+geom_point()+geom_smooth(color="purple")
+
+```
+```{r}
+#change the color of the scatter plot into orange
+ggplot(iris, aes(Sepal.Length, Sepal.Width))+geom_point(color = "orange")+geom_smooth(color="purple")
+```
+```{r}
+#make the color of the scatterplot vary by Species. The color of the smooth line should remain purple
+ggplot(iris, aes(Sepal.Length, Sepal.Width))+geom_point(aes(color = Species))+geom_smooth(color="purple")
+
+```
+```{r}
+#What relationship do you observe based on your graph in #7
+#Setosa has large sepal width and short sepal length
+#versicolor has about 5-7 Sepal length and short sepal width
+#virginica has 5-8 sepal length and 2-3.75 sepal width
+```
+
+

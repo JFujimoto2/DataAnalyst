@@ -1,0 +1,73 @@
+
+```{r}
+library(caret)
+library(rpart)
+library(rpart.plot)
+```
+
+```{r}
+german <- read.csv("german.csv")
+```
+
+```{r}
+head(german)
+```
+
+```{r}
+names(german)
+```
+
+```{r}
+#german$Credit = 1
+german$Credit
+```
+
+```{r}
+# ?ifelse
+# german$target <- ifelse(german$Credit == 1, "Good", "Bad")
+#data.all$target [data.all$diagnosis == "M"] = 1
+german$target [german$Credit = 1] == "Good"
+german$target [german$Credit = 0] == "Bad"
+
+german$target
+```
+
+```{r}
+set.seed(1000)
+        
+split <- createDataPartition(y = german$target, p = .7, list = FALSE)
+
+german.training <- german[split,] 
+german.validation <- german[-split,]
+```
+
+```{r}
+set.seed(1234)
+
+dt1 <- rpart(target ~ CreditAmount + Age + CreditHistory + Employment,
+             data = german.training,
+             method = "class",
+             control = rpart.control(minbucket = 5, cp = 0.01, maxdepth = 5), 
+             parms = list(split = "gini"))
+```
+
+```{r}
+rpart.plot(dt1)
+```
+
+```{r}
+dt1$cptable[which.min(dt1$cptable[, "xerror"]), "CP"]
+```    
+  
+```{r}
+pdt1<- prune(dt1, cp = dt1$cptable[which.min(dt1$cptable[, "xerror"]), "CP"])
+
+rpart.plot(pdt1)
+``` 
+
+```{r}
+pred <- predict(pdt1, newdata= german.validation , type="class")
+conf.matrix <- table(pred, german.validation$target)
+print(conf.matrix)
+print(paste("Accuracy: ", sum(diag(conf.matrix))/sum(conf.matrix), sep = ""))
+```

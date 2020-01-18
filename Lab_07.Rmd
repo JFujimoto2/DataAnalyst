@@ -1,0 +1,34 @@
+---
+title: "Lab- Titanic EDA"
+author: "Jumpei Fujimoto"
+date: "Nov 1, 2019"
+output: html_document
+---
+
+
+```{r}
+#Load the movies dataset from canvas
+df <- data.frame(read.csv("movies.csv"))
+df
+```
+
+```{r}
+#Fit linear model imdb_rating 
+#Predictors: critics_score, genre, and critics_score & genre interaction
+library(tidyverse)
+mod1 <- lm(imdb_rating ~ critics_score + genre + critics_score*genre, data=df)
+mod1
+```
+
+```{r}
+#Interpret result
+## this result shows equation. critics score goes up by 1, 0.0320813, and if a data has a genre 'Animation', -0.08965705.
+## Critics score is numerical, genre is categorical.
+```
+
+```{r}
+#Predict critics_score = 62 and genre is Comedy.
+predict(mod1, data.frame(critics_score = 62, genre ='Comedy'))
+#Verify your result by hand
+4.6416168 + 0.0320813*62 -0.3174462 + 0.0026370*62
+```

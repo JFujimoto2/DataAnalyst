@@ -1,0 +1,41 @@
+---
+title: "Lab6"
+author: "Jumpei Fujimoto"
+date: "10/25/2019"
+output: html_document
+---
+
+`
+```{r}
+#road the parent data
+parent <- read.csv("parent.csv")
+parent
+```
+```{r}
+#plot a scatterplot and write down your observation
+library(ggplot2)
+ggplot(parent, aes(x = parent, y= child )) + geom_point() + geom_smooth()
+```
+#observation 
+the height of parent seems to relate with child's height because the smooth line is positive.
+
+
+```{r}
+#Fit a regression model for child's height
+library(ISLR)
+library(MASS)
+mod1 <- lm(child ~ parent, data = parent)
+mod1
+```
+```{r}
+#Give a summary of your model
+summary(mod1)
+```
+```{r}
+# For parent whose height is 68 in, predict the height of their child. Use predict()
+predict(mod1, data.frame(parent = c(68)))
+```
+
+
+
+

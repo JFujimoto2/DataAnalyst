@@ -1,0 +1,102 @@
+---
+title: "Lab 8"
+author: "Jumpei Fujimoto"
+date: "November 7, 2019"
+output: html_document
+---
+
+
+
+```{r}
+library(janeaustenr)
+library(tidyverse)
+library(stringr)
+library(tidytext)
+```
+
+Let's load the data we need
+```{r}
+original_books <- austen_books() %>%
+  group_by(book) %>%
+  ungroup()
+
+original_books
+```
+
+
+1.
+```{r}
+#using the unnest_tokens function, tokenize i.e. break the text into individual tokens, and give it a name called tidy_books.
+tidy_books <- unnest_tokens(original_books, output = word, input = text)
+tidy_books
+```
+
+2. 
+```{r}
+#remove stop_words from the tidy_books you created above, and name it tidy_books_2
+tidy_books_2 <- tidy_books %>%
+  filter(!word %in% stop_words$word ) 
+tidy_books_2
+```
+
+3. 
+```{r}
+#Find the most common words in all of the books as a whole, and sort them in descending order.
+tidy_books_2 %>% 
+  count(word) %>%
+  mutate(word = reorder(word, n)) %>%
+  arrange(desc(n))
+
+```
+
+
+4.
+
+```{r}
+#Create a visualization of the most common words (you created in #3 above).
+tidy_books_2 %>% 
+  count(word, sort = TRUE) %>% 
+  top_n(10) %>%
+  ggplot(aes(x = reorder(word, n), y = n)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  labs(x = "Words")
+
+```
+
+
+
+5.
+```{r}
+library(textdata)
+```
+
+```{r}
+# Using the nrc lexicon, let's analyize the sentiment of the word in tidy_books_2. 
+get_sentiments("nrc")
+# Use inner_join to combine the words of tidy_books_2 with sentiments in the nrc lexicon, and give it a name tidy_books_3
+tidy_books_3 <- tidy_books_2 %>% inner_join(nrc, by = "word")
+tidy_books_3
+```
+
+
+
+6.
+
+```{r}
+#Perform a sentiment count on tidy_books_3. 
+#Use the count() function
+#You output should have the following cols: book, sentiment, n (where is count)
+tidy_books_3 %>% 
+  count(book, sentiment) 
+```
+
+
+
+
+
+
+
+
+
+

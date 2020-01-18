@@ -1,0 +1,52 @@
+---
+title: "Lecture23"
+author: "Jumpei Fujimoto"
+date: "11/13/2019"
+output: html_document
+---
+
+```{r}
+#install.packages("shiny")
+```
+
+```{r}
+library(shiny)
+runExample("01_hello")
+```
+```{r}
+#install.packages(sAys)
+```
+
+#2. Layout
+```{r}
+ui <- fluidPage(
+  titlePanel("title Panel"),
+  
+  sidebarLayout(position = "right",
+                sidebarPanel("sidebar panel"),
+                mainPanel("main panel"))
+  
+)
+```
+
+```{r}
+ui <- fluidPage(
+  
+  titlePanel("title Panel"),
+  
+  sidebarLayout(position = "right",
+                sidebarPanel("sidebar panel"),
+                mainPanel("main panel"))
+  
+)
+
+# Define sever logic---
+server <- function(input, output){
+  
+  
+}
+
+# Run the app----
+shinyApp(ui = ui, server = server)
+```
+

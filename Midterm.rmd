@@ -1,0 +1,201 @@
+---
+title: "DSCI 301 - MidTerm"
+author: "Put your name"
+date: "Oct 04, 2019"
+output: html_document
+---
+
+Part one:
+Load the dat2.csv file into R and name it “tips”. Based on this dataset, answer the following questions.
+
+```{r}
+tips <- read.csv("dat2.csv")
+```
+
+
+1. Display the first 10 rows of the dataset tips.(4pts)
+
+```{r}
+head(tips, 10)
+#Or another solution
+tips[1:10, ]
+```
+
+
+2. For the dataset tips, filter records of female customers who have total bill greater than or equal to 20.(7pts)
+
+```{r}
+subset(tips, sex == "Female" & total_bill >= 20)
+```
+
+
+3. Add a new variable called tip_percentage by calculating the ratio of tip to total_bill.(7pts)
+
+```{r}
+#You will need dplyr function to use the mutate function
+library(dplyr)
+tips <- mutate(tips, tip_percentage = tip / total_bill)
+
+#Or 
+
+tips$tip_percentage <- tips$tip / tips$total_bill
+
+
+
+```
+
+
+
+4. Plot a scatterplot of the tip_percentage by total bill size.(7pts)
+
+```{r}
+library(ggplot2)
+ggplot(data = tips, mapping = aes(x = total_bill, y = tip_percentage)) +
+  geom_point()
+
+```
+
+
+
+5. Change the color of the scatterplot in #4 into blue.(7pts)
+
+```{r}
+
+ggplot(data = tips, mapping = aes(x = total_bill, y = tip_percentage)) +
+  geom_point(color = "blue")
+
+```
+
+
+6. Have the color of the scatterplot in #4 vary by the variable smoker.(7pts)
+
+```{r}
+
+ggplot(data = tips, mapping = aes(x = total_bill, y = tip_percentage)) +
+  geom_point(aes(color = smoker))
+
+#Or
+
+ggplot(data = tips, mapping = aes(x = total_bill, y = tip_percentage, color = smoker)) +
+  geom_point()
+
+```
+
+
+7. Have the color of the scatterplot in #4 vary by the variables smoker and time.(7pts)
+At the exam I updated the wording: have the scatterplot vary by smoker and time.
+
+```{r}
+ggplot(data = tips, mapping = aes(x = total_bill, y = tip_percentage)) +
+  geom_point() +facet_grid(smoker ~ time)
+```
+
+
+8. Add a suitable title, x-axis and y-axis.(4pts)
+
+```{r}
+# It didn't specify to which graph, I accepted if you added title and axes to the another graphs (not graph #8).
+
+ggplot(data = tips, mapping = aes(x = total_bill, y = tip_percentage)) +
+  geom_point() +facet_grid(smoker ~ time) +
+  labs(title = "Add a title here",
+       x = "Add x-axis name ",
+       y = "Add y-axis name ")
+
+```
+
+
+
+
+Part Two:
+
+Load the starwars.csv file into R and name it “starwars”. Based on this dataset, answer the following
+questions.
+
+```{r}
+starwars <- read.csv("starwars.csv")
+
+```
+
+
+1. Give a summary of the dataset starwars. (3pts)
+
+```{r}
+summary(starwars)
+```
+
+
+
+2. Plot a bar chart by gender for the data set starwars.(6pts)
+
+```{r}
+ggplot(data = starwars, mapping = aes(x = gender)) +
+  geom_bar()
+```
+
+
+3. Plot a bar chart (count) by gender for the data set starwars, and give them a gray70 color.(6pts)
+
+```{r}
+ggplot(data = starwars, mapping = aes(x = gender)) +
+  geom_bar(fill = "gray70")
+```
+
+4. Plot a bar chart (proprtions) by gender for the data set starwars, and give them a gray70 color.
+(7pts)
+
+```{r}
+ggplot(data = starwars, mapping = aes(x = gender)) +
+  geom_bar(aes(y = ..prop.., group = 1))
+
+#Or
+
+ggplot(data = starwars, mapping = aes(x = gender, y = ..prop.., group = 1)) +
+  geom_bar()
+
+
+```
+
+
+5. Plot a stacked bar chart for gender by hair_color.(7pts)
+
+```{r}
+ggplot(data = starwars, mapping = aes(x = gender, fill = hair_color)) +
+  geom_bar()
+
+```
+
+
+
+6. For each gender, set the bars of the variable hair_color side-by-side.(7pts)
+
+```{r}
+ggplot(data = starwars, mapping = aes(x = gender, fill = hair_color)) +
+  geom_bar(position = "dodge")
+
+```
+
+
+7. Repeat #6 above but change y- axis to show proportions.(7pts)
+
+```{r}
+ggplot(data = starwars, mapping = aes(x = gender, y = ..prop.., group = hair_color, fill = hair_color)) +
+  geom_bar(position = "dodge")
+
+```
+
+
+8. Facet wrap #6 above by hair_color, and adjust the width so that you can read the x-axis labels.
+(7pts)
+
+
+```{r}
+ggplot(data = starwars, mapping = aes(x = gender, fill = hair_color)) +
+  geom_bar(position = "dodge") +
+  facet_wrap(~hair_color)
+
+```
+
+
+
+

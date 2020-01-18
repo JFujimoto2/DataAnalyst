@@ -1,0 +1,32 @@
+---
+title: "Lab02"
+author: "Jumpei Fujimoto"
+date: "9/06/2019"
+output: html_document
+---
+
+```{r}
+#1
+A <- c(1, 2, 3)
+B <- c(4, 5, 6)
+rbind(A, B)
+```
+```{r}
+#2
+mat <- matrix(data = 1:9, nrow = 3)
+mat
+```
+
+```{r}
+#3
+mat2 <- matrix(data = 1:25, nrow = 5, byrow = TRUE)
+mat2
+```
+```{r}
+#4
+mat2[2:3, 2]
+mat2[2:3, 3]
+```
+
+
+

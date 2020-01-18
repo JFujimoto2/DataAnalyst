@@ -1,0 +1,39 @@
+---
+title: "Lab04_Jumpei"
+author: "Jumpei Fujimoto"
+date: "9/27/2019"
+output: html_document
+---
+
+```{r}
+# Use the head() to get top few rows of the mpg dataset
+head(mpg)
+```
+```{r}
+# plot a scatterplot for displ by hwy
+ggplot(mpg, aes(x = displ, y= hwy)) + geom_point()
+```
+```{r}
+# Facet by class with two rows
+ggplot(mpg, aes(x = displ, y= hwy)) +
+  geom_point() +
+  facet_wrap(~class, nrow = 2)
+```
+```{r fig.width=5}
+#Facet by class and cyl
+ggplot(mpg, aes(x = displ, y= hwy)) +
+  geom_point() +
+  facet_grid(cyl~class)
+```
+```{r}
+#give any three observation
+?mpg
+## Most of compact and subcompact cars have great miles per gallon, but those cars are not large engine displacement.
+## SUV and pickup have better displacement than compact car
+## Class 5 does not have many datasets
+```
+
+
+
+
+

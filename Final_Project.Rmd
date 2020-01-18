@@ -1,0 +1,68 @@
+---
+title: "Black_Friday"
+author: "Jumpei Fujimoto"
+date: "11/30/2019"
+output: html_document
+---
+
+# The goal is to "Predict purchase amount"
+# This dataset comprises of sales transactions captured at a retail store. It’s a classic dataset to explore and expand your feature engineering skills and day to day understanding from multiple shopping experiences. This is a regression problem. The dataset has 550,069 rows and 12 columns.
+```{r}
+library(tidyverse)
+```
+
+```{r}
+train <- read_csv("train.csv")
+test <- read_csv("test.csv")
+train
+test
+```
+
+```{r}
+# Categorical: Gender, Age, City Categoruy, Marital status(marriage), Occupation
+# numerical: Product category1, product category2, product category3, Purchase
+summary(train)
+```
+```{r}
+# 550068 rows and 12 variables
+str(train)
+```
+
+# Check all categorical variables
+```{r}
+# 7 classes have in Age
+# City category has three (A, C, B)
+# Stay in Current City Years has 5 categories
+# Marital status is 0 or 1
+unique(train$Age)
+unique(train$City_Category)
+unique(train$Stay_In_Current_City_Years)
+unique(train$Marital_Status)
+```
+```{r}
+ggplot(train) + geom_bar(aes(x = Age))
+ggplot(train) + geom_bar(aes(x = City_Category))
+ggplot(train) + geom_bar(aes(x = Stay_In_Current_City_Years))
+ggplot(train) + geom_bar(aes(x = Marital_Status))
+
+```
+```{r}
+# We can see some trend, not diverse
+ggplot(train, aes(x = Product_Category_1, y = Purchase)) + geom_point()
+```
+```{r}
+ggplot(train, aes(x = Product_Category_2, y = Purchase)) + geom_point()
+```
+
+```{r}
+ggplot(train) + geom_bar(aes(x = Product_Category_1))
+```
+
+```{r}
+ggplot(train, aes(x = Age, y = Purchase)) + geom_point()
+```
+```{r}
+ggplot(train, aes(x = Gender, y = Purchase)) + geom_point()
+
+```
+
